@@ -1,0 +1,36 @@
+{
+  "name": "simplepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "child_process": "^1.0.2",
+    "compute-cosine-similarity": "^1.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "fast-levenshtein": "^3.0.0",
+    "mariadb": "^3.4.0",
+    "mecab-ya": "^0.1.1",
+    "natural": "^8.0.1",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
